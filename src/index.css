@@ -1,0 +1,158 @@
+/* Reset styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  background-image: url('garbage-background.png');
+  background-size: 135%;
+  background-repeat:no-repeat; 
+  background-position: bottom center;
+ /* background-position: bottom center; */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  background-color: #093763;
+}
+
+nav {
+  display: block;
+  justify-content:left;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: block;
+  align-items: center;
+  justify-content: left;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+nav ul li {
+  margin: 0 20px;
+  justify-content: left;
+  text-align: left;
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  justify-content: left;
+}
+
+nav ul li a:hover {
+  color: #38198b;
+}
+
+#rdispimg4 {
+  width: 100%;
+  max-width: 800px;
+  margin-left: 80px;
+  opacity: 0.9;
+  }
+
+main {
+  padding: 0px;
+  
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 100px;
+  text-align: center;
+  color: #03090c;
+  
+}
+
+ul {
+  margin-bottom: 20px;
+  justify-content: left;
+}
+
+li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: left;
+}
+
+p {
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.truck-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.truck-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  background-size: 80px x 100px;
+  opacity: 0.6;
+}
+
+.truck-images img {
+  width: 320px;
+  height: 200px;
+  margin: 50px;
+  opacity: 1;
+}
+
+footer {
+  text-align: center;
+  margin: 0px 0;
+}
+
+#rdispimg1 {
+width: 100%;
+max-width: 100px;
+}
+
+*.sub-header {
+box-shadow:
+0 2px 6px 0 rgba(175,181,186,.3), 0 -1px 6px 0 rgba(175,181,186,.3);
+background-color: #ffffffc0;
+flex-grow: 1;
+align-items: center;
+display:flex;
+height: 80px;
+justify-content: center;
+font-size: 25px;
+}
+
+#rdispimg11 {
+  width: 100%;
+  max-width: 100px;
+  justify-content: right;
+  margin: 0px;
+  align-items: end;
+  }
